@@ -1,0 +1,320 @@
+/*******importamos las fuentes*******/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+/*****fin imports*****/
+
+
+
+
+* {
+  /* Reset de los algunos estilos por defecto */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/********* barra de navegacion  **********/
+.head{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.insu{
+  width: 150px;
+  height: 50px;
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.nav{
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  right: 200px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.nav a{
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: hsl(273, 4%, 51%);
+  
+}
+.nav a:hover{
+  height: 50px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid;
+  background: hsl(270, 9%, 17%);
+ 
+}
+/********* barra de navegacion-fin  **********/
+/********* hero-section ********/
+
+.hero {
+  background-color: hsl(256, 26%, 20%);
+  display: flex;
+  justify-content: center;
+  padding: 8rem 0;
+}
+
+.hero_child {
+  width: 50%;
+  max-width: 700px;
+}
+.hero_line{
+  border-bottom: 1px solid white;
+  width: 200px;
+}
+.hero_child h1{
+  height: 230px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 80px;
+  color: white;
+}
+.hero_child p{
+  height: 110px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(212, 211, 211);
+}
+.hero_a{
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero_a a{
+  text-decoration: none;
+  color: rgb(212, 211, 211);
+  text-transform: uppercase;
+}
+.hero_a a:hover{
+  width: 150px;
+  height: 50px;
+  color: hsl(256, 26%, 20%);
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img {
+  position: relative;
+}
+
+.hero-img img {
+  position: absolute;
+}
+
+
+
+/********* hero-section-fin ********/
+
+/******** we-different section********/
+.we-diferente-line{
+  border-bottom: 3px solid black;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.we-different{
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+  margin: 100px;
+}
+
+.we-different h1{
+  padding-bottom: 60px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 80px;
+}
+.boxs-different{
+  height: 100px;
+  display: flex;
+ justify-content: space-between;
+
+}
+.boxs-different img{
+  width: 130px;
+  padding: 20px;
+}
+
+.boxs{
+  height: 150px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.boxs h3{
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 10px;
+  width: 300px;
+}
+
+.boxs p{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 350px;
+}
+
+/********* find more  **********/
+.find-more{
+  margin: 100px;
+  height: 300px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid hsl(256, 26%, 20%);
+  background-color: hsl(256, 26%, 20%);
+
+}
+
+.find-more h1{
+  margin: 120px;
+  width: 600px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 68px;
+  color: white;
+}
+
+.find-more a{
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  right: 100px;
+  text-transform: uppercase;
+}
+
+.find-more a:hover{
+  width: 200px;
+  height: 50px;
+  color: hsl(256, 26%, 20%);
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-more img{
+  position: absolute;
+  right: 100px;
+  height: 300px;
+}
+/********* find more fin  **********/
+/*****footer*****/
+
+.footer{
+  background-color: hsl(0, 0%, 98%);
+  background: url(./images/bg-pattern-footer-desktop.svg) no-repeat;
+}
+
+.footer .img{
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+.footer .img img:hover{
+  cursor: pointer;
+}
+/*****footer fin*****/
+/*****secttion superior footer*****/
+
+.sectfooter{
+  margin: 100px;
+  height: 80px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid hsl(216, 30%, 68%);
+}
+.sectfooter h1{
+  align-items: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+/*****secttion superior footer fin*****/
+/********* list  **********/
+
+.list{
+  margin: 100px;
+  width: 1440px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list a{
+  
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+  position: relative;
+  bottom: 40px;
+  color: hsl(216, 30%, 68%);
+  
+
+}
+.list li{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+  list-style: none;
+}
+.list li:hover{
+  cursor: pointer;
+  height: 35px;
+  border-bottom: 1px solid hsl(256, 26%, 20%);
+}
+
+/********* list fin  **********/
